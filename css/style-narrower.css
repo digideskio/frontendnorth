@@ -15,3 +15,19 @@
 		padding-left: 2em;
 		padding-right: 2em;
 	}
+
+/* table update */
+table.default tr th.time,
+table.default tr th.speaker,
+table.default tr th.title,
+table.default tr th.desc {
+	display: none;
+}
+table.default tr td {
+	display: block;
+	width: 100%;
+}
+table.default tr td.desc {
+	border-top: 1px solid #ccc;
+	font-size: 10pt;
+}
